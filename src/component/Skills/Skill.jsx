@@ -2,7 +2,7 @@ import React from 'react'
 import './skills.css'
 const Service = () => {
   return (
-    <div>Skill</div>
+    <section id='skill'>Skills</section>
   )
 }
 
