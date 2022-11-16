@@ -6,6 +6,7 @@ import {BsBookmark} from 'react-icons/bs';
 
 import {SiSemanticweb} from 'react-icons/si'
 import {RiContactsLine} from 'react-icons/ri';
+import {BsAward} from 'react-icons/bs';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -15,6 +16,7 @@ const Nav = () => {
       <a href="#" onClick={()=> setActiveNav('#')} className={activeNav==='#' ? 'active': ''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav==='#about'? 'active':''}><AiOutlineUser/></a>
       <a href="#portfolio" onClick={()=>setActiveNav('#portfolio')} className={activeNav==='#portfolio' ? 'active':''}><BsBookmark/></a>
+      <a href="#experince" onClick={()=>setActiveNav('#experince')} className={activeNav==='#experince' ? 'active':''}><BsAward/></a>
       <a href="#skill"onClick={()=>setActiveNav('#skill')} className={activeNav==='#skill' ? 'active':''}><SiSemanticweb/></a>
       <a href="#contact"onClick={()=>setActiveNav('#contact')}  className={activeNav==='#contact' ? 'active':''}><RiContactsLine/></a>
       
